@@ -1,10 +1,10 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                              //
-//                          Gruvbox v1.0 for Telegram Desktop.                                  //
+//                          Gruvbox v1.1 for Telegram Desktop.                                  //
 //                                                                                              //
 //                                                                                              //
-//        Source code: https://github.com/gilbertw1/telegram-gruvbox-theme                      //
+//        Source code: https://github.com/randomowo/telegram-gruvbox-theme                      //
 //                                                                                              //
 //        Published under MIT Licence. Feel free to modify this file whatever you want.         //
 //        Mentioning the original repo (see above) isn't mandatory, but highly appreciated!     //
@@ -53,7 +53,7 @@ imageBgTransparent: COLOR_WHITE;
 //widgets
 activeButtonBg: COLOR_BLUE_DARK;               // Currently selected button background
 activeButtonBgOver: #689d6a;                    // Mouse over currently selected button background
-activeButtonBgRipple: COLOR_CYAN_RIPPLE_ACTIVE;// Primary button background color (and active chat) - Press & hold 
+activeButtonBgRipple: COLOR_CYAN_RIPPLE_ACTIVE;// Primary button background color (and active chat) - Press & hold
 activeButtonFg: COLOR_WHITE;                    // Currently selected button text
 activeButtonFgOver: activeButtonFg;             // Mouse over currently selected button text
 activeButtonSecondaryFg: COLOR_WHITE;           // Counter color on primary button
@@ -116,7 +116,7 @@ titleBg: COLOR_DARK;                            // Title bar
 titleShadow: #00000003;
 titleButtonFg: #ababab;                         // Title bar buttons(min/max/close)
 titleButtonBgOver: #dbdbdb;                     // Title bar min/max background (hover)
-titleButtonFgOver: #9a9a9a;                     // Title bar min/max icons 
+titleButtonFgOver: #9a9a9a;                     // Title bar min/max icons
 titleButtonCloseBgOver: #e81123;
 titleButtonCloseFgOver: COLOR_WHITE;
 titleFgActive: COLOR_WHITE;                         // Active title bar text (Mac)
@@ -126,7 +126,7 @@ titleFg: COLOR_GRAY;                               // Inactive title bar text (M
 trayCounterBg: #fb4934;                         // Unread messages counter background in tray (not muted, default red)
 trayCounterBgMute: #cc241d;                     // Unread messages counter background in tray (muted, default gray)
 trayCounterFg: COLOR_WHITE;                     // Unread messages counter text (number)
-trayCounterBgMacInvert: COLOR_WHITE;            
+trayCounterBgMacInvert: COLOR_WHITE;
 trayCounterFgMacInvert: COLOR_WHITE;
 
 // layers
@@ -160,7 +160,7 @@ contactsStatusFgOnline: windowActiveTextFg;
 
 photoCropFadeBg: layerBg;                       // "Out-of-bounds" area in photo cropping (avatars etc...)
 photoCropPointFg: COLOR_WHITE;                  // Photo crop "corners" (which you drag to crop photo)
- 
+
 // intro
 introBg: COLOR_DARK;
 introTitleFg: windowBoldFg;
@@ -314,7 +314,7 @@ msgOutReplyBarColor: COLOR_BLUE_DARK;          // Outgoing msg: vertical bar nex
 msgOutReplyBarSelColor: COLOR_BLUE_DARK;       // Outgoing msg: vertical bar next to reply (selected)
 msgInMonoFg: COLOR_BLUE_LIGHT;                 // Monowidth font / incoming msg
 msgOutMonoFg: COLOR_BLUE_LIGHT;                // Monowidth font / outgoing msg
-msgDateImgFg: msgServiceFg;						
+msgDateImgFg: msgServiceFg;
 msgDateImgBg: #00000054;                        // Download / play / etc overlay backgrounds
 msgDateImgBgOver: #00000074;                    // Mouse over download / play / etc overlay backgrounds
 msgDateImgBgSelected: #1c4a7187;
@@ -456,3 +456,15 @@ mediaviewPlaybackIconFgOver: mediaviewPlaybackActiveOver;
 mediaviewTransparentBg: COLOR_WHITE;
 mediaviewTransparentFg: #cccccc;
 notificationBg: COLOR_DARK;                    // Notification background
+
+// sidebar
+sideBarBg: #363838;
+sideBarBgActive: COLOR_DARK;
+sideBarBgRipple: windowBgRipple;
+sideBarTextFg: COLOR_GRAY;
+sideBarTextFgActive: COLOR_BLUE_LIGHT;
+sideBarIconFg: COLOR_GRAY;
+sideBarIconFgActive: COLOR_BLUE_LIGHT;
+sideBarBadgeBg: #fb4934;
+sideBarBadgeBgMuted: #cc241d;
+sideBarBadgeFg: COLOR_WHITE;
