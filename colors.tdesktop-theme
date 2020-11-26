@@ -217,8 +217,8 @@ dialogsTextFgServiceActive: COLOR_DARK;
 dialogsDraftFgActive: #cc241d;                  // "Draft" word when chat is selected
 dialogsVerifiedIconBgActive: COLOR_DARK;
 dialogsVerifiedIconFgActive: COLOR_DARK;
-dialogsSendingIconFgActive: COLOR_BLUE_LIGHT;
-dialogsSentIconFgActive: COLOR_BLUE_LIGHT;
+dialogsSendingIconFgActive: COLOR_GRAY;
+dialogsSentIconFgActive: COLOR_DARK;
 dialogsUnreadBgActive: COLOR_DARK;
 dialogsUnreadBgMutedActive: COLOR_DARK;
 dialogsUnreadFgActive: COLOR_BLUE_LIGHT;
